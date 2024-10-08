@@ -1,0 +1,52 @@
+header {
+    flex: auto;
+    color: rgb(0, 0, 0);
+    
+}
+.logoHeader {
+    width: 50px; 
+    height: auto;
+}
+.nav-link.disabled {
+    margin-top: 5.8px;
+    font-size: 12px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+body {
+    color: black;
+}
+.carousel {
+    background-color: #333; 
+    
+}
+.carousel-item img {
+    max-height: 400px;
+    width: auto;
+    object-fit: contain;
+}
+.container {
+    margin-top: 20px; 
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.social-icons li {
+    margin: 0 10px;
+}
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+}
